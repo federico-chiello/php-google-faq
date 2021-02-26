@@ -40,6 +40,7 @@ header{
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: white;
 }
 
 /* header-top */
@@ -145,4 +146,41 @@ main .container p{
 footer{
   height: 50px;
   background-color: #f5f5f5;
+}
+
+/* footer left */
+footer .left{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .left ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .left li{
+  padding-right: 5px;
+}
+
+footer .left ul li a,
+footer .left ul li span{
+  color: #626262;
+}
+
+footer .left ul li span{
+  padding-left: 5px;
+}
+
+/* footer right */
+footer .right{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
