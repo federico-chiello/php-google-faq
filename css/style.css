@@ -10,6 +10,14 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 /* CLASSI RIUTILIZZABILI */
 .clearfix::after {
   content: '';
@@ -34,11 +42,34 @@ header{
 header .header-top {
   height: calc(100% - 45px);
   width: 50%;
-  background-color: violet;
+}
+
+header .header-top .left{
+  height: 100%;
+  width: 45%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-top .left img{
+  width: 25%;
+}
+
+header .header-top .left span{
+  font-size: 25px;
+  padding-left: 5px;
+  color: #5f6368;
+}
+
+header .header-top .right{
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
 }
 
 header .header-bottom {
   height: calc(100% - 45px);
-  width: 50%;
   background-color: green;
 }

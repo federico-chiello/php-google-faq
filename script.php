@@ -41,10 +41,11 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
   <!-- HEADER -->
   <header>
     <!-- header-top -->
-    <div class="header-top clearfix">
+    <div class="header-top">
       <!-- left -->
       <div class="left float-left">
-
+        <img src="img\logo.png" alt="logo">
+        <span>Privacy e termini</span>
       </div>
       <!-- right -->
       <div class="right float-right">
