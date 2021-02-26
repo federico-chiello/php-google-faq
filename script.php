@@ -40,7 +40,21 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
 <body>
   <!-- HEADER -->
   <header>
+    <!-- header-top -->
+    <div class="header-top clearfix">
+      <!-- left -->
+      <div class="left float-left">
 
+      </div>
+      <!-- right -->
+      <div class="right float-right">
+
+      </div>
+    </div>
+    <!-- header-bottom -->
+    <div class="header-bottom">
+
+    </div>
   </header>
   <!-- MAIN -->
   <main>

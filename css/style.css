@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* CLASSI RIUTILIZZABILI */
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+/* HEADER */
+header{
+  height: 90px;
+  width: 100%;
+  background-color: pink;
+}
+
+header .header-top {
+  height: calc(100% - 45px);
+  width: 50%;
+  background-color: violet;
+}
+
+header .header-bottom {
+  height: calc(100% - 45px);
+  width: 50%;
+  background-color: green;
+}
