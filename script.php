@@ -87,20 +87,28 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
   </main>
   <!-- FOOTER -->
   <footer>
-    <!-- left -->
-    <div class="left float-left">
-      <ul>
-        <li><a href="#">Google</a><span>&#183;</span></li>
-        <li><a href="#">Tutto su Google</a><span>&#183;</span></li>
-        <li><a href="#">Privacy</a><span>&#183;</span></li>
-        <li><a href="#">Termini</a></li>
-      </ul>
+    <div class="container">
+      <!-- left -->
+      <div class="left float-left">
+        <ul>
+          <li><a href="#">Google</a><span>&#183;</span></li>
+          <li><a href="#">Tutto su Google</a><span>&#183;</span></li>
+          <li><a href="#">Privacy</a><span>&#183;</span></li>
+          <li><a href="#">Termini</a></li>
+        </ul>
+      </div>
+      <!-- right -->
+      <div class="right float-right">
+        <i class="fas fa-globe"></i>
+        <select>
+          <option value="">Italiano</option>
+          <option value="">English</option>
+          <option value="">Français</option>
+          <option value="">Español</option>
+          <option value="">Deutsch</option>
+        </select>
+      </div>
     </div>
-    <!-- right -->
-    <div class="right float-right">
-
-    </div>
-
   </footer>
 
 </body>
