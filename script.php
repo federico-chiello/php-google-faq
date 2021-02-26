@@ -45,11 +45,14 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
       <!-- left -->
       <div class="left float-left">
         <img src="img\logo.png" alt="logo">
-        <span>Privacy e termini</span>
+        <span><a href="#">Privacy e termini</a></span>
       </div>
       <!-- right -->
       <div class="right float-right">
-
+        <a href="#"><i class="fas fa-th"></i></a>
+        <div class="btn">
+          <a href="#">Accedi</a>
+        </div>
       </div>
     </div>
     <!-- header-bottom -->

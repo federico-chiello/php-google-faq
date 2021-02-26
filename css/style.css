@@ -34,20 +34,18 @@ ul {
 
 /* HEADER */
 header{
-  height: 90px;
+  height: 100px;
   width: 100%;
-  background-color: pink;
 }
 
 header .header-top {
-  height: calc(100% - 45px);
+  height: 60px;
   width: 50%;
 }
 
 header .header-top .left{
   height: 100%;
   width: 45%;
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +55,7 @@ header .header-top .left img{
   width: 25%;
 }
 
-header .header-top .left span{
+header .header-top .left span a{
   font-size: 25px;
   padding-left: 5px;
   color: #5f6368;
@@ -67,9 +65,28 @@ header .header-top .right{
   height: 100%;
   width: 50%;
   background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-top .right i{
+  color: #5f6368;
+}
+
+header .header-top .right .btn{
+  background-color: #1a73e8;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+header .header-top .right .btn a{
+  color: white;
+
 }
 
 header .header-bottom {
-  height: calc(100% - 45px);
+  height: calc(100% - 60px);
   background-color: green;
 }
