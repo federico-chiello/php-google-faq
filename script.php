@@ -57,7 +57,13 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
     </div>
     <!-- header-bottom -->
     <div class="header-bottom">
-
+      <ul>
+        <li><a href="#">Introduzione</a></li>
+        <li><a href="#">Norme sulla privacy</a></li>
+        <li><a href="#">Termini di servizio</a></li>
+        <li><a href="#">Tecnologie</a></li>
+        <li><a href="#">Domande frequenti</a></li>
+      </ul>
     </div>
   </header>
   <!-- MAIN -->

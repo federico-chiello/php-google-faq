@@ -86,11 +86,35 @@ header .header-top .right .btn{
 
 header .header-top .right .btn a{
   color: white;
-
 }
 
 /* header-bottom */
 header .header-bottom {
   height: calc(100% - 60px);
   background-color: green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .header-bottom ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-bottom ul li {
+  margin: 0 20px;
+}
+
+header .header-bottom ul li a{
+  color: #5f6368;
+}
+
+header .header-bottom ul li:last-child{
+  border-bottom: 1px solid #1a73e8;
+}
+
+header .header-bottom ul li:last-child a{
+  color: #1a73e8;
 }
