@@ -87,6 +87,18 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
   </main>
   <!-- FOOTER -->
   <footer>
+    <div class="left float-left">
+      <ul>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Google</a></li>
+      </ul>
+    </div>
+    <!-- right -->
+    <div class="right float-right">
+      
+    </div>
 
   </footer>
 
