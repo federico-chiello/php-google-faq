@@ -38,21 +38,24 @@ header{
   width: 100%;
 }
 
+/* header-top */
 header .header-top {
   height: 60px;
-  width: 50%;
+  width: 100%;
+  padding: 0 20px;
 }
 
+/* header-top left */
 header .header-top .left{
   height: 100%;
-  width: 45%;
+  width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 header .header-top .left img{
-  width: 25%;
+  width: 15%;
 }
 
 header .header-top .left span a{
@@ -61,12 +64,12 @@ header .header-top .left span a{
   color: #5f6368;
 }
 
+/* header-top right */
 header .header-top .right{
   height: 100%;
-  width: 50%;
-  background-color: yellow;
+  width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -86,6 +89,7 @@ header .header-top .right .btn a{
 
 }
 
+/* header-bottom */
 header .header-bottom {
   height: calc(100% - 60px);
   background-color: green;

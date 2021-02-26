@@ -41,7 +41,7 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
   <!-- HEADER -->
   <header>
     <!-- header-top -->
-    <div class="header-top">
+    <div class="header-top clearfix">
       <!-- left -->
       <div class="left float-left">
         <img src="img\logo.png" alt="logo">
