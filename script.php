@@ -68,7 +68,15 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
   </header>
   <!-- MAIN -->
   <main>
+    <section>
+      <?php foreach ($domandeFaq as $domande) {
+          var_dump($domande);
+        ?>
 
+        <!-- <h2><?php  ?></h2>
+        <p><?php  ?></p> -->
+      <?php } ?>
+    </section>
   </main>
   <!-- FOOTER -->
   <footer>
